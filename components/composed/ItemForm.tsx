@@ -51,6 +51,10 @@ export default function ItemForm(props: CreateEntryFormProps) {
   const passwordInput = useRef<HTMLInputElement>(null);
   const descriptionInput = useRef<HTMLInputElement>(null);
 
+  const allowGeneratePassword = itemBeingEdited
+    ? state.settings.allowEdit
+    : true;
+
   useEffect(() => {
     if (state.settings.exposeAll) {
       setInputType('text');
@@ -310,7 +314,7 @@ export default function ItemForm(props: CreateEntryFormProps) {
               </Button>
             </div>
 
-            {state.settings.allowEdit && (
+            {allowGeneratePassword && (
               <Button
                 tabIndex={-1}
                 type="button"
