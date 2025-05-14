@@ -97,7 +97,10 @@ export default function MainPage() {
             </button>
           </Link>
 
-          <Link href={'https://github.com/JoaoGeraldes'} target="_blank">
+          <Link
+            href={'https://github.com/JoaoGeraldes/ninjalynx'}
+            target="_blank"
+          >
             <button className="border-animate">
               <FaGithub />
               Repository
@@ -269,7 +272,7 @@ export default function MainPage() {
           fast, and 100% yours.
         </p>
         <p>
-          <Link href={'https://github.com/JoaoGeraldes'}>
+          <Link href={'https://github.com/JoaoGeraldes/ninjalynx'}>
             <button className="border-animate">
               <FaGithub />
               Get started
