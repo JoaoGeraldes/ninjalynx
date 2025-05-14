@@ -1,0 +1,4 @@
+- This project is using Vercel K + Upstash for rate limiting (With Redis database):
+  https://vercel.com/templates/next.js/api-rate-limit-upstash
+
+-
