@@ -2,6 +2,15 @@
 
 ### A secure, self-hosted, and open-source secret/password manager that ensures full control over your secrets.
 
+**TEST LIVE DEMO**
+
+1. Go to https://ninjalynx.com/client/sign-in
+2. Sign in with:
+
+   **API KEY**: `demo`
+
+   **MASTER KEY**: `demo`
+
 ![Ninjalynx Preview](public/ninjalynx_demo.gif)
 
 # 💻 Development
