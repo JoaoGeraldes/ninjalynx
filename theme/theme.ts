@@ -34,7 +34,6 @@ const common = {
 };
 
 export const theme: Record<ThemeNames, DefaultThemeStructure> = {
-  // A sleek, elegant theme with rich purple hues, inspired by the gemstone.
   amethyst: {
     ...common,
     color: {
@@ -65,7 +64,6 @@ export const theme: Record<ThemeNames, DefaultThemeStructure> = {
         radial-gradient(142% 91% at 111% 84%, #3815aaf7 0%, #24115d 100%);
     `,
   },
-  // A deep, dark theme with a sophisticated and modern feel, like volcanic glass.
   obsidian: {
     ...common,
     color: {
