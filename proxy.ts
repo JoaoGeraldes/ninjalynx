@@ -44,7 +44,10 @@ export async function proxy(request: NextRequest) {
     failedAttempts += 1;
     console.error('Failed attempts: ', failedAttempts);
     console.error('API Key: missing or invalid.');
-    return;
+    return Response.json(
+      { error: 'Server misconfigured: API key missing or invalid.' },
+      { status: 500 }
+    );
   }
 
   // Handle unauthenticated user
