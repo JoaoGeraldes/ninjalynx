@@ -18,9 +18,9 @@
     "@vercel/kv": "^3.0.0",
     "crypto-js": "^4.2.0",
     "mongoose": "^8.10.0",
-    "next": "^15.3.0",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "^16.1.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "react-icons": "^4.12.0",
     "styled-components": "^6.1.17"
   },

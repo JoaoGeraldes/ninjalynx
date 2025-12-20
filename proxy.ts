@@ -18,7 +18,7 @@ const ratelimit = new Ratelimit({
   ),
 });
 
-export async function middleware(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   if (failedAttempts >= SETTINGS.MAX_ALLOWED_FAILED_ATTEMPTS) {
     return Response.json(
       {
